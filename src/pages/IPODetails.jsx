@@ -91,11 +91,11 @@ function IPODetails() {
   return (
     <main className="mx-auto max-w-6xl px-4 pb-10 pt-6 md:pt-8">
       <section className="mb-6 flex flex-col gap-4 md:mb-8 md:flex-row md:items-center md:justify-between">
-        <div className="flex items-start gap-3">
+        <div className="flex flex-col gap-3 md:flex-row md:items-start md:gap-3">
           <button
             type="button"
             onClick={() => navigate(-1)}
-            className="mt-1 inline-flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800 md:mt-1"
             aria-label="Go back to previous page"
           >
             <ChevronLeft className="h-4 w-4" />
