@@ -17,32 +17,6 @@ The app closely follows the provided PDF designs for both desktop and mobile, us
 
 ---
 
-## Project Structure
-
-src/
-  App.jsx
-  main.jsx
-  index.css
-
-  data/
-    ipoData.js          # Mock IPO data and timeline
-
-  hooks/
-    useIPOData.js       # Context provider + custom hook
-
-  components/
-    Button.jsx
-    IPOCard.jsx
-    IPOStatsGrid.jsx
-    Timeline.jsx
-    NavBar.jsx
-    LoadingSpinner.jsx
-
-  pages/
-    IPOList.jsx         # /ipo-list
-    IPODetails.jsx      # /ipo-details/:id
-    NotFound.jsx        # 404 fallback---
-
 ## Getting Started
 
 ### 1. Install dependencies
